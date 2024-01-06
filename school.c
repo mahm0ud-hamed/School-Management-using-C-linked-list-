@@ -52,7 +52,7 @@ void new_student(List * pl)
             fflush(stdin);
 
             printf("enter student id\n");// ask user to enter student id
-            scanf("%d",&pn->id);// scanning id from user
+            scanf("%d",pn->id);// scanning id from user
             fflush(stdin);
 
             printf("enter the student address \n");// asking user to enter student address
